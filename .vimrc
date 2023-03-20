@@ -275,6 +275,15 @@ runtime! macros/matchit.vim
 " Basic mappings
 " -----------------------------------------------------------------------------
 
+" Escape Key mapping
+inoremap jj <ESC>
+
+" Navigate in insert mode
+inoremap <C-h> <Left>
+inoremap <C-j> <Down>
+inoremap <C-k> <Left>
+inoremap <C-l> <Right>
+
 " Seamlessly treat visual lines as actual lines when moving around.
 noremap j gj
 noremap k gk
