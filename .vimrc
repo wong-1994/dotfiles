@@ -100,28 +100,27 @@ Plug 'cakebaker/scss-syntax.vim'
 Plug 'chr4/nginx.vim'
 Plug 'chrisbra/csv.vim'
 Plug 'ekalinin/dockerfile.vim'
-Plug 'elixir-editors/vim-elixir'
-Plug 'Glench/Vim-Jinja2-Syntax'
-Plug 'fatih/vim-go'
-Plug 'cespare/vim-toml', { 'branch': 'main' }
+" Plug 'elixir-editors/vim-elixir'
+" Plug 'Glench/Vim-Jinja2-Syntax'
+" Plug 'fatih/vim-go'
+" Plug 'cespare/vim-toml', { 'branch': 'main' }
 Plug 'godlygeek/tabular' | Plug 'tpope/vim-markdown'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install' }
-Plug 'jvirtanen/vim-hcl'
+" Plug 'jvirtanen/vim-hcl'
 Plug 'lifepillar/pgsql.vim'
 Plug 'othree/html5.vim'
-Plug 'pangloss/vim-javascript'
-Plug 'MaxMEllon/vim-jsx-pretty'
-Plug 'PotatoesMaster/i3-vim-syntax'
+" Plug 'pangloss/vim-javascript'
+" Plug 'MaxMEllon/vim-jsx-pretty'
+" Plug 'PotatoesMaster/i3-vim-syntax'
 Plug 'stephpy/vim-yaml'
 Plug 'tmux-plugins/vim-tmux'
 Plug 'tpope/vim-git'
-Plug 'tpope/vim-liquid'
-Plug 'tpope/vim-rails'
+" Plug 'tpope/vim-liquid'
 Plug 'vim-python/python-syntax'
-Plug 'vim-ruby/vim-ruby'
+" Plug 'vim-ruby/vim-ruby'
 Plug 'wgwoods/vim-systemd-syntax'
-Plug 'towolf/vim-helm'
-Plug 'hashivim/vim-terraform'
+" Plug 'towolf/vim-helm'
+" Plug 'hashivim/vim-terraform'
 
 call plug#end()
 
@@ -252,7 +251,7 @@ set softtabstop=2
 set spelllang=en_us
 set splitbelow
 set splitright
-set tabstop=2
+set tabstop=4
 set textwidth=0
 set ttimeout
 set timeoutlen=1000
